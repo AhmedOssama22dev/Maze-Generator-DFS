@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cell {
+    height: 57px;
+    width: 56px;
+    border: 4px solid #08275c;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #maze{
+    background-color: #4d5061;
+    width: 44%;
+    height: 85%;
+    align-items: center;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  #play{
+    padding: 10px;
+    align-items: center;
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+    background-color: rgb(5, 190, 5);
+    cursor: pointer;
+    margin-bottom: -16px;
+  }
+  
